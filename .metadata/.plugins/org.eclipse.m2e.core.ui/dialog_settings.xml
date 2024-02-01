@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="H:\PG-DAC\AdvJavaWorkspace\SDMExam"/>
+			<item value="H:\PG-DAC\AdvJavaWorkspace\JspWebApp\src\main\webapp\calc.jsp"/>
+			<item value="H:\PG-DAC\AdvJavaWorkspace\Selenium-Demo\src\main\java\com\ysp\Demo1.java"/>
+			<item value="H:\PG-DAC\AdvJavaWorkspace\Spring-boot-app\pom.xml"/>
+			<item value="H:\PG-DAC\AJ\cdac-dec-2023-springrepo\spring-mvc\src\main\webapp\WEB-INF\web.xml"/>
+			<item value="H:\PG-DAC\AdvJavaWorkspace\PersonPassportMapping\src\main\java\com\ysp\app\GetpersonById.java"/>
+			<item value="H:\PG-DAC\AdvJavaWorkspace\hibernate-Demo\src\main\java\com\ysp\dao\Customerdao.java"/>
+			<item value="H:\PG-DAC\AdvJavaWorkspace\hibernate-Demo\src\main\java\com\ysp\app\Addcustomer.java"/>
+			<item value="H:\PG-DAC\AdvJavaWorkspace\CRUD-Jsp-sevlet-jdbc-userExample\src\main\java\com\crud\user\dao\Userdao.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="com.ysp"/>
+			<item value="com.ysp.ppmapping"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="SDMExam3rdQ"/>
+			<item value="LoginFillSDMExam"/>
+			<item value="SDMExam"/>
+			<item value="SeleniumDemo2"/>
+			<item value="Selenium-demo2"/>
+			<item value="Selenium-Demo"/>
+			<item value="jUnit-Demo"/>
+			<item value="SpringRestApiforUser"/>
+			<item value="Spring-mvc-ysp"/>
+			<item value="Spring-Mvc"/>
+			<item value="Spring-Inheritance-demo"/>
+			<item value="SpringIntro"/>
+			<item value="PersonPassportMapping"/>
+			<item value="UserAdressMappingDemoHibernate"/>
+			<item value="hibernateWeb"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item key="width" value="480"/>
+		<item key="height" value="665"/>
+		<item key="x" value="720"/>
+		<item key="y" value="97"/>
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="H:\PG-DAC\AdvJavaWorkspace\Spring-boot-app"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

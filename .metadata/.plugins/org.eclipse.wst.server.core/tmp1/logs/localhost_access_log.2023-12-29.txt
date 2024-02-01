@@ -1,0 +1,4 @@
+127.0.0.1 - - [29/Dec/2023:09:47:05 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [29/Dec/2023:09:47:06 +0530] "GET /SpringRestApiforUser/WEB-INF/classes/com/ysp/controller/UserController.java HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [29/Dec/2023:09:47:07 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [29/Dec/2023:09:50:42 +0530] "GET /SpringRestApiforUser/all-users HTTP/1.1" 200 25

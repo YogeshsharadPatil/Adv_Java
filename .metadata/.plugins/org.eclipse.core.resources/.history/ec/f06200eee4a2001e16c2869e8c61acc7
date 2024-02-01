@@ -1,0 +1,12 @@
+package com.ysp.component;
+
+public class SbiAtm implements Atm {
+
+	@Override
+	public void wiithdraw(int acno, double amount) {
+		
+		
+		
+	}
+
+}

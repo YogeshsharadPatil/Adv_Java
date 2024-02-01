@@ -1,0 +1,25 @@
+package com.ysp;
+
+import java.awt.Button;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Demo1 {
+
+	public static void main(String[] args) {
+		WebDriver driver = new ChromeDriver();
+//		driver.get("https://www.makemytrip.com/");
+//		driver.close();
+		
+		driver.get("http://localhost:8080/MywebApp/login.html");
+		driver.findElement(By.name("email")).sendKeys("ysp@gmail.com");
+		driver.findElement(By.name("pwd")).sendKeys("ysp");
+		driver.findElement(By.name("rememberme")).click();
+		//driver.findElement(By.cssSelector("button[type='submit'])")).click();
+		driver.findElement(By.tagName("button"));
+		
+	}
+
+}

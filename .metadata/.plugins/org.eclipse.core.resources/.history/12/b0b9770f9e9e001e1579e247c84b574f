@@ -1,0 +1,50 @@
+package com.ysp.dao;
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
+import com.ysp.Entity.Address;
+import com.ysp.Entity.User;
+public class UserAddressdao {
+	public void adduser(User user) {
+		EntityManagerFactory emf = null;
+		EntityManager em = null;
+		try {
+			emf = Persistence.createEntityManagerFactory("useraddresMapping");
+			em = emf.createEntityManager();
+			em.getTransaction().begin();
+			em.persist(user);
+			em.getTransaction().commit();
+		}finally {
+			em.close();
+			emf.close();
+		}
+	}
+	
+	public void addAddress(Address address) {
+		EntityManagerFactory emf = null;
+		EntityManager em = null;
+		try {
+			emf = Persistence.createEntityManagerFactory("useraddresMapping");
+			em = emf.createEntityManager();
+			em.getTransaction().begin();
+			em.persist(address);
+			em.persist(address);
+			em.getTransaction().commit();
+		}finally {
+			emf.close();
+			em.close();
+		}
+	}
+	
+	public void update(User user) {
+		EntityManagerFactory emf = null;
+		EntityManager em = null;
+		try {
+			emf=Persistence.createEntityManagerFactory("useraddresMapping");
+			em = emf.createEntityManager();
+			
+		}finally {
+			
+		}
+	}
+}

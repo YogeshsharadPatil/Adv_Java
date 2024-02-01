@@ -1,0 +1,15 @@
+package com.ysp.component;
+
+import org.springframework.stereotype.Component;
+
+@Component //created the Bean
+public class Door {
+	
+	
+	public void open() {
+		
+	}
+	public void close() {
+		
+	}
+}

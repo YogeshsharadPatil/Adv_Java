@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;Crud_Product_JSP_JDBC_Servlet&apos;" deleteContents="false" description="Delete resource &apos;Crud_Product_JSP_JDBC_Servlet&apos;" element1="/Crud_Product_JSP_JDBC_Servlet" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1703081517482"/>
+</session>

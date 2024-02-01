@@ -1,0 +1,6 @@
+package com.ysp.Entity;
+
+public class Passenger {
+	private string name;
+	
+}

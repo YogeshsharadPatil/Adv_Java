@@ -1,0 +1,18 @@
+package com.ysp.component;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component //created the Bean
+public class Door {
+	
+	@Autowired
+	private Alarm alrm;
+	
+	public void open() {
+		
+	}
+	public void close() {
+		
+	}
+}

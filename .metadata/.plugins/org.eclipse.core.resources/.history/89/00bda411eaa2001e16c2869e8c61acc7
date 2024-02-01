@@ -1,0 +1,16 @@
+package com.ysp.component;
+
+public class SoundAlarm implements Alarm{
+
+	@Override
+	public void activate() {
+		System.out.println("Sound Alarm is Ringing...");
+		
+	}
+
+	@Override
+	public void deactivare() {
+		System.out.println("");
+	}
+
+}

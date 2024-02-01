@@ -1,0 +1,10 @@
+package com.ysp.Entity;
+
+import java.time.LocalDate;
+
+public class Pnr {
+	private int pnrNo;
+	private int trainNo;
+	private LocalDate travelDate;
+	
+}

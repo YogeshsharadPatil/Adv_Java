@@ -1,0 +1,33 @@
+package com.crud.user.dao;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+public class Userdao {
+		String jdbcUrl = "jdbc:mysql://localhost:3306/advjava";
+		String jdbcUsername = "root";
+		String jdbcPwd = "cdac";
+		
+		protected Connection getConnection() {
+			Connection conn=null;
+			try {
+				Class.forName("com.mysql.cj.jdbc.Driver");
+				conn = DriverManager.getConnection(jdbcUrl,jdbcUsername,jdbcPwd);
+			} catch (ClassNotFoundException e) {
+		
+				e.printStackTrace();
+			}finally{
+				try {
+					conn.close();
+				}catch(Exception e) {
+				e.printStackTrace();
+					
+				}
+				
+			}
+			
+			
+			
+			return conn;
+		}
+}

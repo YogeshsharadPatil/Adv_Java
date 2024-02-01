@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;my-spring-config.xml&apos; to &apos;SpringHibernateProductExample/src/main/resources&apos;&#x0D;&#x0A;- Original project: &apos;cdac-dec-2023-springrepo&apos;&#x0D;&#x0A;- Destination element: &apos;SpringHibernateProductExample/src/main/resources&apos;&#x0D;&#x0A;- Original element: &apos;my-spring-config.xml&apos;" description="Copy file" destination="=SpringHibernateProductExample/src\/main\/resources=/maven.pomderived=/true=/=/optional=/true=/" element1="spring-and-database/src/main/resources/my-spring-config.xml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1703584685467" units="0" version="1.0"/>
+</session>

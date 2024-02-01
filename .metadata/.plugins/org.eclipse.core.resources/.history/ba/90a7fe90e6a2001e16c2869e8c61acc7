@@ -1,0 +1,21 @@
+package com.ysp.component;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
+public class SbiAtm implements Atm {
+	
+	@Autowired
+	private Bank bank;
+	
+	@Override
+	public void wiithdraw(int acno, double amount) {
+		
+		//if we crteate  object then, it leads to tight coupling
+//		Bank bank = new HDFCBank();
+		bank.withdraw(111, acno, amount);
+		
+	}
+
+}

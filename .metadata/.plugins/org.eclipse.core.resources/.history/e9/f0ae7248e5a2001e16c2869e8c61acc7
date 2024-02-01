@@ -1,0 +1,16 @@
+package com.ysp.component;
+
+public class SbiAtm implements Atm {
+	
+	
+	
+	@Override
+	public void wiithdraw(int acno, double amount) {
+		
+		//if we crteate  object then, it leads to tight coupling
+//		Bank bank = new HDFCBank();
+		bank.withdraw(111, acno, amount);
+		
+	}
+
+}

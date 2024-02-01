@@ -1,0 +1,7 @@
+package com.crud.user.dao;
+
+public class Userdao {
+		String jdbcUrl = "jdbc:mysql://localhost:3306/advjava";
+		String jdbcUsername="root";
+		String jdbcPwd="cdac";
+}
